@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  lexical_field_service:
+    build:
+      context: .
+    container_name: lexical_field_container
+    command: python main.py
