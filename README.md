@@ -44,6 +44,17 @@ pip install -r requirements.txt
 pip3 install torch --index-url https://download.pytorch.org/whl/cu118
 ```
 
+### 4. Setup Kernel
+
+```sh
+python -m ipykernel install --user --name=env --display-name "cuda-gpt"
+```
+
+### 5. Open JupyterNotebook
+```sh
+jupyter notebook
+```
+
 ## Credit
 
 _https://www.youtube.com/watch?v=UU1WVnMk4E8&t=523s_
